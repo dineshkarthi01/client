@@ -1,0 +1,67 @@
+/* ProductList.css */
+
+.product-list-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+}
+
+.subtotal {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.total-price {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.submit-button {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.submit-button button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+  .product-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .total-price,
+  .submit-button {
+    text-align: left;
+  }
+}

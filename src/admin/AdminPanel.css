@@ -1,0 +1,37 @@
+.admin-panel-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .admin-panel-container {
+    padding: 10px;
+  }
+
+  .product-image {
+    width: 30px;
+    height: 30px;
+  }
+}
